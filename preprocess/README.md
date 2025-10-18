@@ -1,0 +1,1 @@
+初步进行非数值变量label encoding
