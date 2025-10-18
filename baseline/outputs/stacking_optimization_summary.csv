@@ -1,0 +1,6 @@
+﻿策略名称,描述,训练AUC,训练AUPRC,F1分数,预测均值,预测标准差
+stacking_top3_simple_avg,Top3模型简单平均（模仿ensemble）,1.0000,1.0000,1.0000,0.0419,0.0826
+stacking_top3_ridge_strong,Top3模型+强正则化Ridge (C=0.01),1.0000,1.0000,1.0000,0.2123,0.0469
+stacking_top3_ridge_medium,Top3模型+中等正则化Ridge (C=0.1),1.0000,1.0000,1.0000,0.0531,0.0613
+stacking_top3_ridge_weak,Top3模型+弱正则化Ridge (C=1.0),1.0000,1.0000,1.0000,0.0141,0.0555
+stacking_top4_ridge,Top4模型+中等正则化Ridge (C=0.1),1.0000,1.0000,1.0000,0.0531,0.0613
