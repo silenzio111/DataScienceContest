@@ -1,0 +1,1 @@
+F.mse_loss(recon_x, x, reduction='sum')
